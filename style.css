@@ -1,0 +1,46 @@
+
+
+.Log_menu{
+    background-color:whitesmoke ;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    align-items: center;
+}
+.LabelLog{
+    color: blue;
+    font-size: 50px;
+    padding: 50px 0;
+}
+.loginUser{
+    display: flex;
+    flex-direction: column;
+}
+.log{
+    background-color:whitesmoke ;
+    border-color: blue;
+    border-radius: 20px ;
+    color: gray;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 5px;
+}
+.button_log{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    justify-content: center;
+    transition: 0.3s;
+}
+.button_log button{
+    width: 150px;
+    margin-top: 35px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
