@@ -71,7 +71,7 @@ window.onload = () => {
     function checkUp(letters) {
         if (upPattern.test(letters)) {
             let output = letters.match(upPattern)
-            document.querySelector('.output').innerHTML = (output.length)
+            document.querySelector('.output2').innerHTML = (output.length)
         }
     }
 
@@ -126,7 +126,7 @@ window.onload = () => {
             validPin = true
             document.querySelector('.output5').innerHTML = `${pin} Вы ввели правильный пин код`
         } else {
-            document.querySelector('.output5').innerHTML = `${pin} Вы ввели правильный не валидный пин код`
+            document.querySelector('.output5').innerHTML = `${pin} Вы ввели не валидный пин код`
         }
     }
 
